@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background: #0077b6;
+    color: white;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .hero {
+    text-align: center;
+    background: #00b4d8;
+    color: white;
+    padding: 5rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .btn {
+    background: #0077b6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  section {
+    padding: 2rem 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .projeto-card {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .habilidades ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .habilidades ul li {
+    margin: 0.5rem 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0077b6;
+    color: white;
+  }
+  
